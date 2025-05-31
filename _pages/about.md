@@ -26,9 +26,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hi! I am an incoming Ph.D. student in [Electrical and Computer Engineering](https://www.ece.iastate.edu/) at [Iowa State University](https://www.iastate.edu/), where I will be joining the [WiCI lab](https://wici.iastate.edu/), advised by [Professor Hongwei Zhang](https://www.ece.iastate.edu/~hongwei/). My research will be at the intersection of `wireless systems`, `edge intelligence`, and `AI-driven connectivity`, with a goal of making next-generation networks more intelligent, and accessible for rural communities. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Before starting my Ph.D. journey, I worked as a `Core Cloud Infrastructure Engineer` at `Grameenphone`, the leading telecom operator in Bangladesh, where I contributed to cutting-edge projects in cloud infrastructure, AIOps, and network monitoring.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Beyond work, I love organizing fun team events, travelling,  donating blood (12 times and counting!), and building tech that actually helps people. I am excited to begin this new chapter and contribute to smarter, more connected systems that serve communities better.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
