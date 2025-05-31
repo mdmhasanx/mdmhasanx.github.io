@@ -27,9 +27,9 @@ Hi! I am an incoming Ph.D. student in [Electrical and Computer Engineering](http
 
 Before starting my Ph.D. journey, I worked as a `Core Cloud Infrastructure Engineer` at [Grameenphone](https://www.grameenphone.com), the leading telecom operator in Bangladesh, where I contributed to cutting-edge projects in cloud infrastructure, AIOps, and network monitoring. 
 
-I completed my Bachelor’s in [Electrical and Electronic Engineering](https://eee.buet.ac.bd/) from [Bangladesh University of Engineering and Technology](https://buet.ac.bd/) (BUET), the country’s most prestigious engineering university, majoring in `communication and signal processin`.
+I completed my Bachelor’s in [Electrical and Electronic Engineering](https://eee.buet.ac.bd/) from [Bangladesh University of Engineering and Technology](https://buet.ac.bd/) (BUET), the country’s most prestigious engineering university, majoring in `communication and signal processing`.
 
 
-Beyond work, I love organizing fun team events, travelling,  donating blood (12 times and counting!), and building tech that actually helps people. I am excited to begin this new chapter and contribute to smarter, more connected systems that serve communities better.
+Beyond work, I love spending time with family, travelling, playing sports, and `donating blood (12 times and counting!)`. 
 
 
