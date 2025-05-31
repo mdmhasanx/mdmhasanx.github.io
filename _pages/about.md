@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Incoming Ph.D. Student at <a href='https://www.iastate.edu/'>Iowa State University</a>
 
 profile:
   align: right
