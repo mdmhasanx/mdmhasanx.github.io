@@ -5,9 +5,9 @@ permalink: /
 subtitle: Incoming Ph.D. Student at <a href='https://www.iastate.edu/'>Iowa State University</a>
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: ""
 
 selected_papers: true # includes a list of papers marked as "selected={true}"

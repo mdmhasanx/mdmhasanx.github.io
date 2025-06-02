@@ -31,7 +31,28 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
-        <div class="profile-social-icons">{% include social.liquid %}</div>
+        <div class="profile-contact-info">
+          <!-- Email Row -->
+          {% if site.data.socials.email %}
+          <div class="contact-row email-row">
+            <a href="mailto:{{ site.data.socials.email | encode_email }}" title="email" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+            <a href="mailto:{{ site.data.socials.email | encode_email }}" class="contact-text">{{ site.data.socials.email }}</a>
+          </div>
+          {% endif %}
+
+          <!-- Other Social Icons Row/Block -->
+          <div class="contact-row social-icons-row">
+            {% if site.data.socials.github_username %}
+              <a href="https://github.com/{{ site.data.socials.github_username }}" title="GitHub" class="social-icon"><i class="fa-brands fa-github"></i></a>
+            {% endif %}
+            {% if site.data.socials.linkedin_username %}
+              <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" title="LinkedIn" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+            {% endif %}
+            {% if site.data.socials.scholar_userid %}
+              <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" title="Google Scholar" class="social-icon"><i class="ai ai-google-scholar"></i></a>
+            {% endif %}
+          </div>
+        </div>
       </div>
     {% endif %}
 

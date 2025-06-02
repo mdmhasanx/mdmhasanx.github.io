@@ -52,6 +52,7 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+/*
 .profile-social-icons {
   text-align: center; // Center the icons
   margin-top: 0.5rem; // Add some space above the icons
@@ -69,6 +70,59 @@ body.sticky-bottom-footer {
       height: 1.3rem;
       margin: 0 0.4rem 0.25rem 0.4rem;
       vertical-align: middle;
+    }
+  }
+}
+*/
+.profile-contact-info {
+  margin-top: 0.5rem; // Space above the contact info block
+
+  .contact-row {
+    margin-bottom: 0.5rem; // Space between rows
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .email-row {
+    display: flex;
+    align-items: center; // Vertically align icon and text
+
+    .social-icon { // Specific for the icon link in email row
+      margin-right: 0.5em; // Space between icon and text
+      i {
+        font-size: 1.3rem;
+        color: $blue-color;
+        vertical-align: middle; // Ensure icon aligns well with text
+      }
+    }
+    .contact-text {
+      font-size: 0.9rem; 
+      color: var(--global-text-color); 
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        color: $blue-color; 
+      }
+    }
+  }
+
+  .social-icons-row {
+    // Icons are <a> tags, which are inline by default.
+    // Add a little margin for spacing if they wrap.
+    .social-icon {
+      margin-right: 0.75em; // Space between icons
+      margin-bottom: 0.25em; // Space if icons wrap to new line
+      display: inline-block; // Ensure they behave well with margins
+
+      &:last-child {
+        margin-right: 0;
+      }
+      i {
+        font-size: 1.3rem; 
+        color: $blue-color; 
+        vertical-align: middle;
+      }
     }
   }
 }
