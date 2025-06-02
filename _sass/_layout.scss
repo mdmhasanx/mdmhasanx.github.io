@@ -35,6 +35,8 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
   margin-bottom: 1rem; // Added this line
 }
@@ -76,6 +78,7 @@ body.sticky-bottom-footer {
 */
 .profile-contact-info {
   margin-top: 0.5rem; // Space above the contact info block
+  text-align: center; // Added
 
   .contact-row {
     margin-bottom: 0.5rem; // Space between rows
@@ -85,7 +88,7 @@ body.sticky-bottom-footer {
   }
 
   .email-row {
-    display: flex;
+    display: inline-flex; // Changed from flex
     align-items: center; // Vertically align icon and text
 
     .social-icon { // Specific for the icon link in email row
@@ -108,18 +111,16 @@ body.sticky-bottom-footer {
   }
 
   .social-icons-row {
-    // Icons are <a> tags, which are inline by default.
-    // Add a little margin for spacing if they wrap.
+    // Parent .profile-contact-info has text-align: center,
+    // so inline-block .social-icon elements will be centered.
+    // Add some top margin to separate from email row if both are present.
+    margin-top: 0.5rem;
     .social-icon {
-      margin-right: 0.75em; // Space between icons
-      margin-bottom: 0.25em; // Space if icons wrap to new line
-      display: inline-block; // Ensure they behave well with margins
-
-      &:last-child {
-        margin-right: 0;
-      }
+      margin: 0.25em 0.6em; // Top/bottom margin, Left/right margin for spacing
+                             // 0.6em provides a bit more space than 0.5em
+      display: inline-block; 
       i {
-        font-size: 1.3rem; 
+        font-size: 1.5rem; 
         color: $blue-color; 
         vertical-align: middle;
       }
