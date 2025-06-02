@@ -1417,3 +1417,7 @@ figure.cover {
     color: #23212d !important;
   }
 }
+// Justify text in the main content area of posts/pages
+.post article .clearfix p {
+  text-align: justify;
+}
